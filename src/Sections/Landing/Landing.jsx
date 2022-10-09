@@ -1,0 +1,23 @@
+import images from '../../constants';
+
+import './Landing.css';
+
+const Landing = () => (
+  <section className="landing" id="landing">
+    <div className="container">
+      <div className="text">
+        <h1>Welcome, To Psycho World</h1>
+        <p>Here Iam gonna share everything about my life. Books Iam reading, Games Iam Playing, Stories and
+          Events</p>
+      </div>
+      <div className="image">
+        <img src={images.landing_image} alt="landing" />
+      </div>
+      <a href="#events" className="go-down">
+        <i className="fas fa-angle-double-down fa-2x"></i>
+      </a>
+    </div>
+  </section>
+);
+
+export default Landing;
