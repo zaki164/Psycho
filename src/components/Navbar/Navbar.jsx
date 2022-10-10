@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import images from '../../constants';
 import { useRef, useEffect } from 'react';
 
@@ -30,7 +30,7 @@ const Navbar = () => {
         <ul className="main-nav">
           <li><NavLink exact='true' to="/Gallery">Gallery</NavLink></li>
           <li><NavLink exact='true' to="/Features">Features</NavLink></li>
-          <li><a href="#/" ref={toggleref} onClick={handlemenu}>Other Links</a>
+          <li><Link to='#/' ref={toggleref} onClick={handlemenu}>Other Links</Link>
             <div className="mega-menu" ref={megaref}>
               <div className="image">
                 <img src={images.megamenu} alt="megamenu" />

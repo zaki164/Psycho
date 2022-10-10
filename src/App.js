@@ -1,10 +1,10 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import { Home, Navbar } from './components';
 import { Articles, Features, Gallery, HowItWorks, Pricing, Services, Skills, TeamMembers, Testimonials, TopVideos } from './Sections';
 import './App.css';
 
 const App = () => (
-  <BrowserRouter>
+  <Router>
     <Navbar />
     <Routes>
       <Route exact path='/' element={<Home />} />
@@ -19,7 +19,7 @@ const App = () => (
       <Route path='/Services' element={<Services />} />
       <Route path='/TopVideos' element={<TopVideos />} />
     </Routes>
-  </BrowserRouter>
+  </Router>
 );
 
 export default App;
