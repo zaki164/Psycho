@@ -9,7 +9,7 @@ const Events = () => {
     [...timeref.current.children].forEach((ele) => {
       spans.push(ele.firstChild);
     });
-    let targetdate = new Date("Dec 31, 2022 23:59:59");
+    let targetdate = new Date("Dec 31, 2023 23:59:59");
     let timeInterval = setInterval(() => {
       let date = new Date();
       let Diff = targetdate - date;
