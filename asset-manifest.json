@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Psycho/static/css/main.b39ecdd7.css",
-    "main.js": "/Psycho/static/js/main.4d2519e9.js",
+    "main.css": "/Psycho/static/css/main.27fae3cb.css",
+    "main.js": "/Psycho/static/js/main.f827ff22.js",
     "static/media/stats.jpg": "/Psycho/static/media/stats.04f0250e45e4ed6f831c.jpg",
     "static/media/team-06.png": "/Psycho/static/media/team-06.87130949b09904c2f89f.png",
     "static/media/landing.jpg": "/Psycho/static/media/landing.45ec7c68165b96017b4a.jpg",
@@ -51,11 +51,11 @@
     "static/media/discount2.png": "/Psycho/static/media/discount2.bdb4f2b457672e90e150.png",
     "static/media/hosting-professional.png": "/Psycho/static/media/hosting-professional.4b1c30a57263b36228e3.png",
     "index.html": "/Psycho/index.html",
-    "main.b39ecdd7.css.map": "/Psycho/static/css/main.b39ecdd7.css.map",
-    "main.4d2519e9.js.map": "/Psycho/static/js/main.4d2519e9.js.map"
+    "main.27fae3cb.css.map": "/Psycho/static/css/main.27fae3cb.css.map",
+    "main.f827ff22.js.map": "/Psycho/static/js/main.f827ff22.js.map"
   },
   "entrypoints": [
-    "static/css/main.b39ecdd7.css",
-    "static/js/main.4d2519e9.js"
+    "static/css/main.27fae3cb.css",
+    "static/js/main.f827ff22.js"
   ]
 }
