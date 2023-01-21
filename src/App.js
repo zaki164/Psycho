@@ -1,3 +1,4 @@
+// import "bootstrap/dist/css/bootstrap.min.css";
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import { Home, Navbar } from './components';
 import { Articles, Features, Gallery, HowItWorks, Pricing, Services, Skills, TeamMembers, Testimonials, TopVideos } from './Sections';

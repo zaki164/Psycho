@@ -50,9 +50,7 @@ import worksteps2 from '../assets/work-steps-2.png';
 import worksteps3 from '../assets/work-steps-3.png';
 import work_steps from '../assets/work-steps.png';
 
-
-
-export default {
+const images = {
   avatar1,
   avatar2,
   avatar3,
@@ -104,4 +102,6 @@ export default {
   worksteps2,
   worksteps3,
   work_steps,
-};
+}
+
+export default images;

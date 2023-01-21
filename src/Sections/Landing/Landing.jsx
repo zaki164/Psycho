@@ -1,3 +1,5 @@
+import { faAngleDoubleDown } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import images from '../../constants';
 
 import './Landing.css';
@@ -14,7 +16,7 @@ const Landing = () => (
         <img src={images.landing_image} alt="landing" />
       </div>
       <a href="#events" className="go-down">
-        <i className="fas fa-angle-double-down fa-2x"></i>
+        <FontAwesomeIcon icon={faAngleDoubleDown} size='2x'/>
       </a>
     </div>
   </section>

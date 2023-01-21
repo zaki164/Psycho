@@ -1,5 +1,6 @@
+import { faFacebookF, faLinkedinIn, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import images from '../../constants';
-
 import './TeamMembers.css';
 
 const TeamMembers = () => {
@@ -10,20 +11,20 @@ const TeamMembers = () => {
         <div className="box">
           <div className="data">
             <img src={images.team1} alt="team" />
-              <div className="social">
-                <a href="#/">
-                  <i className="fab fa-facebook-f"></i>
-                </a>
-                <a href="#/">
-                  <i className="fab fa-twitter"></i>
-                </a>
-                <a href="#/">
-                  <i className="fab fa-linkedin-in"></i>
-                </a>
-                <a href="#/">
-                  <i className="fab fa-youtube"></i>
-                </a>
-              </div>
+            <div className="social">
+              <a href="#/">
+                <FontAwesomeIcon icon={faFacebookF} />
+              </a>
+              <a href="#/">
+                <FontAwesomeIcon icon={faTwitter} />
+              </a>
+              <a href="#/">
+                <FontAwesomeIcon icon={faLinkedinIn} />
+              </a>
+              <a href="#/">
+                <FontAwesomeIcon icon={faYoutube} />
+              </a>
+            </div>
           </div>
           <div className="info">
             <h3>Name</h3>
@@ -33,20 +34,20 @@ const TeamMembers = () => {
         <div className="box">
           <div className="data">
             <img src={images.team2} alt="team" />
-              <div className="social">
-                <a href="#/">
-                  <i className="fab fa-facebook-f"></i>
-                </a>
-                <a href="#/">
-                  <i className="fab fa-twitter"></i>
-                </a>
-                <a href="#/">
-                  <i className="fab fa-linkedin-in"></i>
-                </a>
-                <a href="#/">
-                  <i className="fab fa-youtube"></i>
-                </a>
-              </div>
+            <div className="social">
+              <a href="#/">
+                <FontAwesomeIcon icon={faFacebookF} />
+              </a>
+              <a href="#/">
+                <FontAwesomeIcon icon={faTwitter} />
+              </a>
+              <a href="#/">
+                <FontAwesomeIcon icon={faLinkedinIn} />
+              </a>
+              <a href="#/">
+                <FontAwesomeIcon icon={faYoutube} />
+              </a>
+            </div>
           </div>
           <div className="info">
             <h3>Name</h3>
@@ -56,20 +57,20 @@ const TeamMembers = () => {
         <div className="box">
           <div className="data">
             <img src={images.team3} alt="team" />
-              <div className="social">
-                <a href="#/">
-                  <i className="fab fa-facebook-f"></i>
-                </a>
-                <a href="#/">
-                  <i className="fab fa-twitter"></i>
-                </a>
-                <a href="#/">
-                  <i className="fab fa-linkedin-in"></i>
-                </a>
-                <a href="#/">
-                  <i className="fab fa-youtube"></i>
-                </a>
-              </div>
+            <div className="social">
+              <a href="#/">
+                <FontAwesomeIcon icon={faFacebookF} />
+              </a>
+              <a href="#/">
+                <FontAwesomeIcon icon={faTwitter} />
+              </a>
+              <a href="#/">
+                <FontAwesomeIcon icon={faLinkedinIn} />
+              </a>
+              <a href="#/">
+                <FontAwesomeIcon icon={faYoutube} />
+              </a>
+            </div>
           </div>
           <div className="info">
             <h3>Name</h3>
@@ -79,20 +80,20 @@ const TeamMembers = () => {
         <div className="box">
           <div className="data">
             <img src={images.team4} alt="team" />
-              <div className="social">
-                <a href="#/">
-                  <i className="fab fa-facebook-f"></i>
-                </a>
-                <a href="#/">
-                  <i className="fab fa-twitter"></i>
-                </a>
-                <a href="#/">
-                  <i className="fab fa-linkedin-in"></i>
-                </a>
-                <a href="#/">
-                  <i className="fab fa-youtube"></i>
-                </a>
-              </div>
+            <div className="social">
+              <a href="#/">
+                <FontAwesomeIcon icon={faFacebookF} />
+              </a>
+              <a href="#/">
+                <FontAwesomeIcon icon={faTwitter} />
+              </a>
+              <a href="#/">
+                <FontAwesomeIcon icon={faLinkedinIn} />
+              </a>
+              <a href="#/">
+                <FontAwesomeIcon icon={faYoutube} />
+              </a>
+            </div>
           </div>
           <div className="info">
             <h3>Name</h3>
@@ -102,20 +103,20 @@ const TeamMembers = () => {
         <div className="box">
           <div className="data">
             <img src={images.team5} alt="team" />
-              <div className="social">
-                <a href="#/">
-                  <i className="fab fa-facebook-f"></i>
-                </a>
-                <a href="#/">
-                  <i className="fab fa-twitter"></i>
-                </a>
-                <a href="#/">
-                  <i className="fab fa-linkedin-in"></i>
-                </a>
-                <a href="#/">
-                  <i className="fab fa-youtube"></i>
-                </a>
-              </div>
+            <div className="social">
+              <a href="#/">
+                <FontAwesomeIcon icon={faFacebookF} />
+              </a>
+              <a href="#/">
+                <FontAwesomeIcon icon={faTwitter} />
+              </a>
+              <a href="#/">
+                <FontAwesomeIcon icon={faLinkedinIn} />
+              </a>
+              <a href="#/">
+                <FontAwesomeIcon icon={faYoutube} />
+              </a>
+            </div>
           </div>
           <div className="info">
             <h3>Name</h3>
@@ -125,20 +126,20 @@ const TeamMembers = () => {
         <div className="box">
           <div className="data">
             <img src={images.team6} alt="team" />
-              <div className="social">
-                <a href="#/">
-                  <i className="fab fa-facebook-f"></i>
-                </a>
-                <a href="#/">
-                  <i className="fab fa-twitter"></i>
-                </a>
-                <a href="#/">
-                  <i className="fab fa-linkedin-in"></i>
-                </a>
-                <a href="#/">
-                  <i className="fab fa-youtube"></i>
-                </a>
-              </div>
+            <div className="social">
+              <a href="#/">
+                <FontAwesomeIcon icon={faFacebookF} />
+              </a>
+              <a href="#/">
+                <FontAwesomeIcon icon={faTwitter} />
+              </a>
+              <a href="#/">
+                <FontAwesomeIcon icon={faLinkedinIn} />
+              </a>
+              <a href="#/">
+                <FontAwesomeIcon icon={faYoutube} />
+              </a>
+            </div>
           </div>
           <div className="info">
             <h3>Name</h3>
@@ -148,20 +149,20 @@ const TeamMembers = () => {
         <div className="box">
           <div className="data">
             <img src={images.team7} alt="team" />
-              <div className="social">
-                <a href="#/">
-                  <i className="fab fa-facebook-f"></i>
-                </a>
-                <a href="#/">
-                  <i className="fab fa-twitter"></i>
-                </a>
-                <a href="#/">
-                  <i className="fab fa-linkedin-in"></i>
-                </a>
-                <a href="#/">
-                  <i className="fab fa-youtube"></i>
-                </a>
-              </div>
+            <div className="social">
+              <a href="#/">
+                <FontAwesomeIcon icon={faFacebookF} />
+              </a>
+              <a href="#/">
+                <FontAwesomeIcon icon={faTwitter} />
+              </a>
+              <a href="#/">
+                <FontAwesomeIcon icon={faLinkedinIn} />
+              </a>
+              <a href="#/">
+                <FontAwesomeIcon icon={faYoutube} />
+              </a>
+            </div>
           </div>
           <div className="info">
             <h3>Name</h3>
@@ -171,20 +172,20 @@ const TeamMembers = () => {
         <div className="box">
           <div className="data">
             <img src={images.team8} alt="team" />
-              <div className="social">
-                <a href="#/">
-                  <i className="fab fa-facebook-f"></i>
-                </a>
-                <a href="#/">
-                  <i className="fab fa-twitter"></i>
-                </a>
-                <a href="#/">
-                  <i className="fab fa-linkedin-in"></i>
-                </a>
-                <a href="#/">
-                  <i className="fab fa-youtube"></i>
-                </a>
-              </div>
+            <div className="social">
+              <a href="#/">
+                <FontAwesomeIcon icon={faFacebookF} />
+              </a>
+              <a href="#/">
+                <FontAwesomeIcon icon={faTwitter} />
+              </a>
+              <a href="#/">
+                <FontAwesomeIcon icon={faLinkedinIn} />
+              </a>
+              <a href="#/">
+                <FontAwesomeIcon icon={faYoutube} />
+              </a>
+            </div>
           </div>
           <div className="info">
             <h3>Name</h3>

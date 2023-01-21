@@ -1,3 +1,7 @@
+import { faFacebookF, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faClock } from '@fortawesome/free-regular-svg-icons';
+import { faMapMarkerAlt, faPhoneVolume } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import images from '../../constants';
 import './Footer.css';
 
@@ -9,17 +13,17 @@ const Footer = () => (
         <ul className="social">
           <li>
             <a href="#/" className="facebook">
-              <i className="fab fa-facebook-f"></i>
+              <FontAwesomeIcon icon={faFacebookF} />
             </a>
           </li>
           <li>
             <a href="#/" className="twitter">
-              <i className="fab fa-twitter"></i>
+              <FontAwesomeIcon icon={faTwitter} />
             </a>
           </li>
           <li>
             <a href="#/" className="youtube">
-              <i className="fab fa-youtube"></i>
+              <FontAwesomeIcon icon={faYoutube} />
             </a>
           </li>
         </ul>
@@ -46,15 +50,15 @@ const Footer = () => (
       </div>
       <div className="box">
         <div className="line">
-          <i className="fas fa-map-marker-alt fa-fw"></i>
+          <FontAwesomeIcon icon={faMapMarkerAlt} fixedWidth />
           <div className="info">Egypt, Giza, Inside The Sphinx, Room Number 220</div>
         </div>
         <div className="line">
-          <i className="far fa-clock fa-fw"></i>
+          <FontAwesomeIcon icon={faClock} fixedWidth />
           <div className="info">Business Hours: From 10:00 To 18:00</div>
         </div>
         <div className="line">
-          <i className="fas fa-phone-volume fa-fw"></i>
+          <FontAwesomeIcon icon={faPhoneVolume} fixedWidth />
           <div className="info">
             <span>+20123456789</span>
             <span>+20198765432</span>

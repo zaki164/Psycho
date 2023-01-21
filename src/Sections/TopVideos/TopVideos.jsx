@@ -1,3 +1,5 @@
+import { faRandom } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import images from '../../constants';
 import './TopVideos.css';
 
@@ -10,7 +12,7 @@ const TopVideos = () => {
           <div className="list">
             <div className="name">
               Top Videos
-              <i className="fas fa-random"></i>
+              <FontAwesomeIcon icon={faRandom} />
             </div>
             <ul>
               <li>How To Create Sub Domain<span>05:18</span></li>

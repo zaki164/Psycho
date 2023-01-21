@@ -1,3 +1,5 @@
+import { faBullhorn, faLaptopCode, faMapMarkedAlt, faPalette, faTools, faUserShield } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Services.css';
 
 const Services = () => {
@@ -6,42 +8,42 @@ const Services = () => {
       <h2 className="main-title">Services</h2>
       <div className="container">
         <div className="box">
-          <i className="fas fa-user-shield fa-4x"></i>
+          <FontAwesomeIcon icon={faUserShield} size='4x' />
           <h3>Security</h3>
           <div className="info">
             <a href="#/">Details</a>
           </div>
         </div>
         <div className="box">
-          <i className="fas fa-tools fa-4x"></i>
+          <FontAwesomeIcon icon={faTools} size='4x' />
           <h3>Fixing Issues</h3>
           <div className="info">
             <a href="#/">Details</a>
           </div>
         </div>
         <div className="box">
-          <i className="fas fa-map-marked-alt fa-4x"></i>
+          <FontAwesomeIcon icon={faMapMarkedAlt} size='4x' />
           <h3>Location</h3>
           <div className="info">
             <a href="#/">Details</a>
           </div>
         </div>
         <div className="box">
-          <i className="fas fa-laptop-code fa-4x"></i>
+          <FontAwesomeIcon icon={faLaptopCode} size='4x' />
           <h3>Coding</h3>
           <div className="info">
             <a href="#/">Details</a>
           </div>
         </div>
         <div className="box">
-          <i className="fas fa-palette fa-4x"></i>
+          <FontAwesomeIcon icon={faPalette} size='4x' />
           <h3>Security</h3>
           <div className="info">
             <a href="#/">Details</a>
           </div>
         </div>
         <div className="box">
-          <i className="fas fa-bullhorn fa-4x"></i>
+          <FontAwesomeIcon icon={faBullhorn} size='4x' />
           <h3>Marketing</h3>
           <div className="info">
             <a href="#/">Details</a>
