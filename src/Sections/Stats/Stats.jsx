@@ -30,7 +30,6 @@ const Stats = () => {
           started = true;
         }
       })
-      console.log('yes');
   }, [])
   return (
     <section className="stats" id="stats" ref={statsref}>
