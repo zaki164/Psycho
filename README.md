@@ -1,3 +1,5 @@
+![Psycho](https://github.com/zaki164/Psycho/assets/92805900/db5a6614-473b-4d49-9efb-3125fce383c0)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
